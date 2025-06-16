@@ -3,3 +3,37 @@ Nosso primeiro repositorio do Código da Transfomação, onde iremos criar nosso
 
 UX/UI
 (Debora, Alessandra, Myriam, Yasmin, Kemilly)
+
+
+##Tema do Site
+
+
+
+
+##HTML
+
+(Nome, Do Nome, Pro Nome)
+
+
+
+##Mobile First
+
+
+
+
+##CSS
+
+(GUSTAVO - NATHALIA - MATHEUS)
+Definir prioridades
+
+
+
+##UX/UI
+
+(Debora, Alessandra, Myriam)
+Definir prioridades
+
+
+
+Conclusão
+
