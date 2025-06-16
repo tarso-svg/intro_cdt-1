@@ -30,5 +30,7 @@ Definir prioridades
 Definir prioridades
 
 
-
+##JavaScript
+(Keslly, Camila, Yasmin)
+"JavaScript é a alma da web, dando a vida a páginas estátisticas com movimento, lógica, experiências dinâmicas e envolventes para os usuários"
 Conclusão
