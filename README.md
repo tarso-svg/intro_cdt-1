@@ -8,6 +8,8 @@ Nosso primeiro repositorio do Código da Transfomação, onde iremos criar nosso
 
 
 ##HTML
+(Gabriel, Rafael, Mi) 
+ele é a base do site; estrutura; corpo que da a existência do site
 
 
 
