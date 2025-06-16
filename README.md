@@ -10,11 +10,15 @@ Debora, Alessandra, Myriam, Yasmin, Kemilly (Exemplo de Nomes)
 
 
 
+
+
 ##HTML
 (Gabriel, Rafael, Mi) 
-ele é a base do site; estrutura; corpo que da a existência do site
+Ele é a base do site; estrutura; corpo que da a existência do site
 
-(Nome, Do Nome, Pro Nome)
+
+
+
 
 
 
@@ -37,6 +41,12 @@ Definir prioridades
 
 
 
+##JavaScript
+(Keslly, Camila, Yasmin)
+"JavaScript é a alma da web, dando a vida a páginas estátisticas com movimento, lógica, experiências dinâmicas e envolventes para os usuários"
+
+
+
 Conclusão
 (Professor Ivan)
 Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit temporibus, possimus reprehenderit est quo earum
@@ -47,3 +57,4 @@ Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit temporibus, pos
 iste dolorum non laboriosam aperiam cupiditate nihil alias incidunt, fugiat eum porro sequi veritatis? Fuga!
 Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit temporibus, possimus reprehenderit est quo earum
 iste dolorum non laboriosam aperiam cupiditate nihil alias incidunt, fugiat eum porro sequi veritatis? Fuga!
+
