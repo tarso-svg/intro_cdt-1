@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Harry Potter - O Mundo Mágico</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700&family=Merriweather:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --cor-cabecalho: #4B0082; /* Roxo escuro */
+            --cor-texto-cabecalho: #FFD700; /* Dourado */
+            --cor-fundo-principal: #F8F8F8; /* Cinza claro */
+            --cor-destaque-texto: #EEE8AA; /* Amarelo palha */
+            --cor-sombra: rgba(0, 0, 0, 0.2);
+
+            /* Cores das Casas */
+            --grifinoria-fundo: #7F0000; /* Vermelho escuro */
+            --grifinoria-texto: #FFD700; /* Dourado */
+            --sonserina-fundo: #006400; /* Verde escuro */
+            --sonserina-texto: #C0C0C0; /* Prata */
+            --corvinal-fundo: #00008B; /* Azul escuro */
+            --corvinal-texto: #CD7F32; /* Bronze */
+            --lufa-lufa-fundo: #FFD700; /* Amarelo */
+            --lufa-lufa-texto: #000000; /* Preto */
+
+            --cor-rodape-fundo: #1C1C1C; /* Preto quase */
+            --cor-rodape-texto: #D3D3D3; /* Cinza claro */
+        }
+
+        body {
+            font-family: 'Merriweather', serif;
+            margin: 0;
+            padding: 0;
+            background-color: var(--cor-fundo-principal);
+            color: #333;
+            line-height: 1.6;
+        }
+
+        header {
+            background-color: var(--cor-cabecalho);
+            color: var(--cor-texto-cabecalho);
+            text-align: center;
+            padding: 2rem 0;
+            box-shadow: 0 4px 8px var(--cor-sombra);
+        }
+
+        header h1 {
+            font-family: 'Cinzel Decorative', serif;
+            font-size: 3.5rem;
+            margin: 0;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+        }
+
+        .container {
+            max-width: 1000px;
+            margin: 20px auto;
+            padding: 0 20px;
+        }
+
+        .harry-potter-img {
+            text-align: center;
+            margin: 30px 0;
+        }
+
+        .harry-potter-img img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 8px;
+            box-shadow: 0 8px 16px var(--cor-sombra);
+            display: block;
+            margin: 0 auto;
+        }
+
+        .introducao {
+            background-color: var(--cor-destaque-texto);
+            padding: 25px;
+            margin: 40px 0;
+            border-radius: 10px;
+            box-shadow: 0 5px 15px var(--cor-sombra);
+            text-align: justify;
+            border: 1px solid rgba(0,0,0,0.1);
+        }
+
+        .introducao p {
+            margin: 0;
+            font-size: 1.1rem;
+            color: #555;
+        }
+
+        .casas-hogwarts {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 25px;
+            margin: 50px 0;
+        }
+
+        .casa-card {
+            flex: 1 1 calc(50% - 40px); /* Dois por linha em telas médias */
+            min-width: 280px;
+            max-width: 450px;
+            border-radius: 12px;
+            padding: 25px;
+            text-align: center;
+            color: white;
+            box-shadow: 0 6px 12px var(--cor-sombra);
+            transition: transform 0.3s ease, box-shadow 0.3s ease, filter 0.3s ease;
+            cursor: pointer;
+            border: 2px solid transparent; /* Para o hover da borda */
+        }
+
+        .casa-card h3 {
+            font-family: 'Cinzel Decorative', serif;
+            font-size: 1.8rem;
+            margin-top: 0;
+            text-shadow: 1px 1px 2px rgba(0,0,0,0.3);
+        }
+
+        .casa-card p {
+            font-size: 1rem;
+            line-height: 1.5;
+        }
+
+        /* Cores individuais das casas */
+        .grifinoria {
+            background-color: var(--grifinoria-fundo);
+            color: var(--grifinoria-texto);
+        }
+        .sonserina {
+            background-color: var(--sonserina-fundo);
+            color: var(--sonserina-texto);
+        }
+        .corvinal {
+            background-color: var(--corvinal-fundo);
+            color: var(--corvinal-texto);
+        }
+        .lufa-lufa {
+            background-color: var(--lufa-lufa-fundo);
+            color: var(--lufa-lufa-texto);
+        }
+
+        /* Efeito hover nas casas */
+        .casa-card:hover {
+            transform: translateY(-8px) scale(1.02);
+            box-shadow: 0 12px 24px rgba(0, 0, 0, 0.3);
+            filter: brightness(1.1);
+        }
+
+        footer {
+            background-color: var(--cor-rodape-fundo);
+            color: var(--cor-rodape-texto);
+            text-align: center;
+            padding: 1.5rem 0;
+            margin-top: 50px;
+            font-size: 0.9rem;
+            border-top: 1px solid rgba(255,255,255,0.1);
+        }
+
+        /* Responsividade */
+        @media (max-width: 768px) {
+            header h1 {
+                font-size: 2.5rem;
+            }
+
+            .casa-card {
+                flex: 1 1 100%; /* Uma por linha em telas pequenas */
+                max-width: 90%;
+            }
+        }
+
+        @media (max-width: 480px) {
+            header h1 {
+                font-size: 2rem;
+            }
+
+            .introducao {
+                padding: 18px;
+            }
+            .introducao p {
+                font-size: 1rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Harry Potter</h1>
+    </header>
+
+    <main class="container">
+        <section class="harry-potter-img">
+            <img src="https://via.placeholder.com/800x450?text=Imagem+de+Harry+Potter" alt="Harry Potter lançando um feitiço" title="Harry Potter, O Menino que Sobreviveu">
+        </section>
+
+        <section class="introducao">
+            <p>
+                Harry Potter é o protagonista de uma série de sete livros de fantasia escrita pela autora britânica J.K. Rowling. A história acompanha a vida de um jovem órfão que, em seu décimo primeiro aniversário, descobre ser um bruxo e é convidado a estudar na Escola de Magia e Bruxaria de Hogwarts. Lá, ele desvenda mistérios sobre seu passado e luta contra o bruxo das trevas Lord Voldemort, que assassinou seus pais quando ele era bebê e tentou matá-lo também. A saga é repleta de magia, amizade, aventura e a eterna batalha entre o bem e o mal, ambientada em um universo rico e fascinante.
+            </p>
+        </section>
+
+        <section class="casas-hogwarts">
+            <div class="casa-card grifinoria">
+                <h3>Grifinória</h3>
+                <p>Coragem, ousadia, nervosismo e cavalheirismo. Seus membros são conhecidos por sua bravura e determinação.</p>
+            </div>
+            <div class="casa-card sonserina">
+                <h3>Sonserina</h3>
+                <p>Ambição, astúcia, liderança e desenvoltura. Muitos bruxos das trevas famosos vieram desta casa, incluindo Lord Voldemort.</p>
+            </div>
+            <div class="casa-card corvinal">
+                <h3>Corvinal</h3>
+                <p>Inteligência, criatividade, aprendizado e sabedoria. Estudiosos e mentes afiadas encontram seu lar aqui.</p>
+            </div>
+            <div class="casa-card lufa-lufa">
+                <h3>Lufa-Lufa</h3>
+                <p>Dedicação, trabalho duro, paciência, lealdade e jogo limpo. Conhecidos por sua gentileza e justiça.</p>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>Página criada por Renan</p>
+    </footer>
+</body>
+</html>
