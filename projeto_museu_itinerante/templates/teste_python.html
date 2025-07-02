@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Minha Página Python-HTML</title>
+
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        text-align: center;
+        margin-top: 50px;
+        background-color:#9e9d9d;
+      }
+      .container {
+        background-color: white;
+        padding: 30px;
+        border-radius: 8px;
+        box-shadow: 0 4px 8px #000000;
+        display: inline-block; /* Para centralizar blocos */
+      }
+      h1 {
+        color: green;
+      }
+      p {
+        color: purple;
+        font-size: 1.1em;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Olá, {{ usuario }}!</h1> {# Isso é uma variável vinda do Python! #}
+      <p>Bem-vindo à sua primeira página dinâmica com Python e Flask.</p>
+      <p>
+        A data e hora atuais são: <strong>{{ data_hora }}</strong>
+      </p> {# Outra variável do Python! #}
+      <p>Este conteúdo foi gerado pelo seu programa Python.</p>
+    </div>
+  </body>
+</html>
