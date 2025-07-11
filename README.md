@@ -14,13 +14,12 @@ Debora, Alessandra, Myriam, Yasmin, Kemilly (Exemplo de Nomes)
 
 
 ##Tema do Site
-
+(Renan e Tarso)
 
 
 
 
 ##HTML
-
 (Gabriel, Rafael, Mi) 
 Ele é a base do site; estrutura; corpo que da a existência do site
 
@@ -29,7 +28,6 @@ Ele é a base do site; estrutura; corpo que da a existência do site
 
 
 ##Mobile First
-
 (KAUANI, VICTOR, ROBERTA, GISELLY )
 Mobile First é uma abordagem de design e desenvolvimento web em que o projeto começa pela versão mobile (celulares) antes de ser adaptado para telas maiores, como tablets e desktops.
 
@@ -38,7 +36,6 @@ Mobile First é uma abordagem de design e desenvolvimento web em que o projeto c
 
 
 ##CSS
-
 (GUSTAVO, NATHALIA, MATHEUS)
 Definir prioridades
 
@@ -47,7 +44,6 @@ Definir prioridades
 
 
 ##UX/UI
-
 (Debora, Alessandra, Myriam, Yasmin, Kemilly)
 Definir prioridades
 
@@ -56,7 +52,6 @@ Definir prioridades
 
 
 ##JavaScript
-
 (Keslly, Camila, Yasmin)
 "JavaScript é a alma da web, dando a vida a páginas estátisticas com movimento, lógica, experiências dinâmicas e envolventes para os usuários"
 
@@ -66,11 +61,4 @@ Definir prioridades
 
 #Conclusão
 (Professor Ivan)
-Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit temporibus, possimus reprehenderit est quo earum
-iste dolorum non laboriosam aperiam cupiditate nihil alias incidunt, fugiat eum porro sequi veritatis? Fuga!
-Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit temporibus, possimus reprehenderit est quo earum
-iste dolorum non laboriosam aperiam cupiditate nihil alias incidunt, fugiat eum porro sequi veritatis? Fuga!
-Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit temporibus, possimus reprehenderit est quo earum
-iste dolorum non laboriosam aperiam cupiditate nihil alias incidunt, fugiat eum porro sequi veritatis? Fuga!
-Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit temporibus, possimus reprehenderit est quo earum
-iste dolorum non laboriosam aperiam cupiditate nihil alias incidunt, fugiat eum porro sequi veritatis? Fuga!
+Esse projeto é com base nas ideias dos jovens de forma comum para todos, respeitando a diversidade de cada um. O projeto sera revisado com suas atividades.
